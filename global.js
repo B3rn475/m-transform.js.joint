@@ -4,9 +4,7 @@
 /*jslint node: true*/
 "use strict";
 
-var global = require('./'),
+var mtjoint = require('./'),
     window = require('window');
 
-window.MTransform = {
-    joint: global
-};
+window.mtjoint = mtjoint;

@@ -4,9 +4,9 @@
 /*jslint node: true*/
 "use strict";
 
-var Board = require('./lib/board'),
-    ElementsMenu = require('./lib/elementsmenu'),
-    ModalEdit = require('./lib/modaledit');
+var Board = require('./lib/board').Board,
+    ElementsMenu = require('./lib/elementsmenu').ElementsMenu,
+    ModalEdit = require('./lib/modaledit').ModelEdit;
 
 // Constructors
 exports.Board = Board;
