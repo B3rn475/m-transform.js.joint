@@ -6,7 +6,7 @@
 
 var Board = require('./lib/board').Board,
     ElementsMenu = require('./lib/elementsmenu').ElementsMenu,
-    ModalEdit = require('./lib/modaledit').ModelEdit,
+    ModalEdit = require('./lib/modaledit').ModalEdit,
     utils = require('./lib/utils');
 
 // Constructors
