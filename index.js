@@ -6,7 +6,8 @@
 
 var Board = require('./lib/board').Board,
     ElementsMenu = require('./lib/elementsmenu').ElementsMenu,
-    ModalEdit = require('./lib/modaledit').ModelEdit;
+    ModalEdit = require('./lib/modaledit').ModelEdit,
+    utils = require('./lib/utils');
 
 // Constructors
 exports.Board = Board;
@@ -17,3 +18,6 @@ exports.ModalEdit = ModalEdit;
 exports.createBoard = Board;
 exports.createElementsMenu = ElementsMenu;
 exports.createModalEdit = ModalEdit;
+
+// utils
+exports.utils = utils;
